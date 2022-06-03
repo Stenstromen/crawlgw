@@ -6,4 +6,7 @@ Node API Gateway for crawling/GET:ing usefull resources.
 * Implement basic Node APP
 * Implement Express API structure
 * Implement express router
-* Install body-parser
+* Implement body-parser
+* API Key requirement
+* SQLite?
+* Registration flow?
