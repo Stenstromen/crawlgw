@@ -10,3 +10,5 @@ Node API Gateway for crawling/GET:ing usefull resources.
 * API Key requirement
 * SQLite?
 * Registration flow?
+* Docker build
+* K8s deployment?
