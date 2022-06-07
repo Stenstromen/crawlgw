@@ -1,17 +1,18 @@
-const apiReadme = "../store/misc/readme.txt";
+const apiReadme = "./store/misc/readme.txt";
 let readmeFile;
 const fs = require("fs");
 
-// NEEDS TO BE FUNCTION!
+function lol() {
 fs.readFile(apiReadme, "utf8", (err, data) => {
+  if (err) {
+    throw err;
+  }
   readmeFile = data;
-  processFile(readmeFile);
+  console.log(readmeFile);
 });
-
-function processFile(content) {
-    console.log(content);
 }
 
 module.exports = {
+  lol: lol,
   readmeFile: readmeFile,
 };
